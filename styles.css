@@ -619,7 +619,8 @@ img { max-width: 100%; display: block; }
   .hero__content { max-width: 100%; }
   .hero__ctas { justify-content: center; }
   .hero__pills { justify-content: center; }
-  .hero__avatar { display: none; }
+  .hero__avatar { display: flex; justify-content: center; margin-bottom: 32px; }
+  .avatar-ring { width: 260px; height: 260px; }
   .about__stats { justify-content: flex-start; }
 }
 
